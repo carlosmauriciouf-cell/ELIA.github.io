@@ -1,0 +1,59 @@
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 4em;
+  letter-spacing: 4px;
+}
+.frase {
+  font-style: italic;
+  opacity: 0.8;
+}
+.scroll {
+  position: absolute;
+  bottom: 30px;
+  font-size: 24px;
+  opacity: 0.6;
+}
+.btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #c2185b;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #ad1457;
+}
+.foto-portada {
+  width: 250px;
+  height: 300px;
+  margin-top: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .contenido {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .como-la-veo-yo img {
+    width: 200px;
+    height: 280px;
+  }
+}

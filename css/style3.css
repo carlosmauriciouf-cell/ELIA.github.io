@@ -1,0 +1,87 @@
+.yo {
+  background: #fce4ec;
+}
+.inverso {
+  flex-direction: row-reverse;
+}
+.btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #c2185b;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #ad1457;
+}
+.veoyo {
+  background: #fce4ec;
+  padding: 80px 20px;
+}
+.veoyo img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+   padding: 8px;                 /* margen interno */
+  background: rgb(161, 3, 127);            /* marco limpio */
+  border-radius: 10px;          /* bordes suaves */
+
+  box-shadow: 
+    0 10px 25px rgba(0,0,0,0.25); /* sombra elegante */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .contenido {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .como-la-veo-yo img {
+    width: 200px;
+    height: 280px;
+  }
+}
+.imagenes-extra {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+
+.img-centro {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(34, 255, 5, 0.774);
+  margin: 0 auto;
+}
+
+.img-extremo {
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+.imagenes-extra {
+  display: flex;
+  align-items: flex-start; /* 👈 todas alineadas arriba */
+  gap: 20px;
+}
+.galeria {
+  display: flex;
+  align-items: flex-start; /* 👈 todas alineadas arriba */
+  gap: 20px;
+}
+.borde-verde   { border-color: #22c55e; }
+.borde-negro    { border-color: #071303e3; }
+.borde-blanco { border-color: #e9e9e9ee; }
